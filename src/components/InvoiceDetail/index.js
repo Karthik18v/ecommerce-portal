@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import "./index.css"; // Import CSS for InvoiceDetail
+import "./index.css";
 
 const InvoiceDetail = ({ invoices, updateInvoice, deleteInvoice }) => {
   const { id } = useParams();
@@ -12,7 +12,6 @@ const InvoiceDetail = ({ invoices, updateInvoice, deleteInvoice }) => {
   useEffect(() => {
     const fetchedInvoice = invoices.find((inv) => String(inv.orderId) === String(id));
     if (!fetchedInvoice) {
-      alert("Invoice not found!");
       navigate("/");
     } else {
       setInvoice(fetchedInvoice);
