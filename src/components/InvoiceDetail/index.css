@@ -1,0 +1,90 @@
+
+.invoice-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-detail h2 {
+    color: #8e44ad;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.invoice-detail p {
+    margin: 10px 0;
+    color: #34495e;
+    font-size: 16px;
+}
+
+.invoice-detail h3 {
+    color: #8e44ad;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.item-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.item-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.item-input input:focus {
+    border-color: #8e44ad;
+    outline: none;
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button-group button {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #6c3483;
+}
+
+.button-group button.delete-button {
+    background-color: #e74c3c;
+}
+
+.button-group button.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.totals {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.totals p {
+    margin: 5px 0;
+    color: #2c3e50;
+    font-size: 16px;
+}
