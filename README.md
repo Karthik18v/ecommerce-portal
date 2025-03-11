@@ -118,18 +118,6 @@ invoice-generation-portal/
 
 ---
 
-## Screenshots
-
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x400/3498db/ffffff?text=Dashboard)
-
-### New Invoice
-![New Invoice](https://via.placeholder.com/800x400/27ae60/ffffff?text=New+Invoice)
-
-### Invoice Detail
-![Invoice Detail](https://via.placeholder.com/800x400/8e44ad/ffffff?text=Invoice+Detail)
-
----
 
 ## Contributing
 
